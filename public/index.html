@@ -1,151 +1,140 @@
 <!DOCTYPE html>
-<!-- Description goes here-->
-<html ng-app="scotchTodo">
-  <head>
-    <title>Oyster World</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--if lte IE 8script(src='assets/js/ie/html5shiv.js')
-    -->
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!--if lte IE 8link(rel='stylesheet', href='/css/ie8.css')
-    -->
-    <!--if lte IE 9link(rel='stylesheet', href='/css/ie9.css')
-    -->
-  </head>
-  <body class="landing"  ng-controller="mainController">
-    <!-- Page Wrapper-->
-    <div id="page-wrapper">
-      <!-- Header-->
-      <header id="header" class="alt">
-        <h1><a href="index.html"><img src="/images/slice/Oyster-World-Anchor-Small.png" alt=""></a></h1>
-        <nav id="nav">
-          <ul>
-            <li class="special"><a href="#menu" class="menuToggle"></a>
-              <div id="menu">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="#one">Our Services</a></li>
-                  <li><a href="#two">Meet the Crew</a></li>
-                  <li><a href="#cta">Talk to An Oyster</a></li>
-                  <li><a href="#footer">Social</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <!-- Banner-->
-      <section id="banner">
-        <div class="inner">
-          <h2>Oyster World</h2>
-          <p>We're the curious ones. The ones who refuse to <br>							squander the beauty of chance. The ones who fall<br>							in love with adventures we haven't had. We're oysters, <br> the ones who travel.</p>
-          <ul class="actions">
-            <li><a href="#cta" class="button special scrolly">Join Our World</a></li>
-          </ul>
-        </div><a href="#one" class="more scrolly">Learn More</a>
-      </section>
-      <!-- One-->
-      <section id="one" class="wrapper style3 special">
-        <header class="major">
-          <div data-wow-duration="2s" data-wow-delay="100ms" class="image wow fadeIn"><img src="/images/slice/OurServices_Header.png" alt=""></div>
-        </header>
-        <ul class="features">
-          <li data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0ms" class="wow fadeInUp"><img src="/images/slice/OurServices_ME_Icon2.png" alt="">
-            <h1>Meet & Eat</h1>
-            <h3>Ethnic Cuisine</h3>
-            <p class="meetup-section">Our meetup that's focused on sharing foreign foods with friends new and old. Fill-up with the diverse cuisine offerings and get a taste of the culture in your backyard.</p>
-            <p class="meetup-section"><img src="/images/slice/MeetupLogo.png" alt="" class="meetup-logo"><span class="meetup-description">Currently offered<br>in Columbus, Ohio</span></p><a href="http://www.meetup.com/Meet-Eat-by-Oyster-World/" class="button special">Join the Meetup</a>
-          </li>
-          <li data-wow-offset="30" data-wow-duration="2s" data-wow-delay="100ms" class="wow fadeInUp"><img src="/images/slice/OurServices_OWR_Icon2.png" alt="">
-            <h1>Oyster World</h1>
-            <h3>Radio</h3>
-            <p>We are not afraid to travel to uncharted waters in Oyster World Radio: a series of interviews, language barriers, social faux pas and political rants. Learn how travel betters lives and see one tourist's transformation into a traveller.</p><a href="#" class="button special grey">Coming soon</a>
-          </li>
-          <li data-wow-offset="30" data-wow-duration="2s" data-wow-delay="200ms" class="wow fadeInUp"><img src="/images/slice/OurServices_OWC_Icon.png" alt="">
-            <h1>Oyster Travel</h1>
-            <h3>Consultants</h3>
-            <p>Not your every-day travel consultant, but rather the helm to authentic travel spots. We are dedicated to keeping you out of tourist traps and limiting the lost in translation moments of your trip with one-on-one, pre-travel guidance.</p><a href="#" class="button special grey">Coming soon</a>
-          </li>
-        </ul>
-      </section>
-      <!-- Two-->
-      <section id="two" class="wrapper alt style2">
-        <div class="inner"></div>
-        <header class="major">
-          <div data-wow-duration="2s" data-wow-delay="100ms" class="image wow fadeIn"><img src="/images/slice/AboutUs_Header_MeetTheCrew.png" alt=""></div>
-        </header>
-        <section class="spotlight">
-          <div class="image"><img src="/images/slice/Omar_profile.jpg" alt=""></div>
-          <div class="content"><img src="/images/slice/Omar_name.png" alt="" data-wow-duration="2s" data-wow-delay="100ms" class="wow pulse">
-            <h2>Meet the CTO</h2>
-            <p>He is our Chief Technology Officer and he has no fear of saying "hi" to strangers. He tudied Materials Science Engineering and Computer Science - basically, he is an engineer that was bit by an aggressive travel-lust bug.</p>
-          </div>
-        </section>
-        <section class="spotlight">
-          <div class="image"><img src="/images/slice/Shannon_profile.jpg" alt=""></div>
-          <div class="content pullRight"><img src="/images/slice/Shannon_name.png" alt="" data-wow-duration="2s" data-wow-delay="100ms" class="wow pulse">
-            <h2>Meet the CMO</h2>
-            <p>She is our Chief Marketing Officer because she studied Visual Communication Design. She deserves a high-five for all the creative bits of your Oyster experience. She's also not sure how she feels about narcissisticks, but groupies are pretty great.'</p>
-          </div>
-        </section>
-        <section class="spotlight">
-          <div class="image"><img src="/images/slice/Nate_profile.jpg" alt=""></div>
-          <div class="content"><img src="/images/slice/Nate_name.png" alt="" data-wow-duration="2s" data-wow-delay="100ms" class="wow pulse">
-            <h2>Meet the CEO</h2>
-            <p>He is our Chief Executive Officer, aka Chief Ginormous Boss. He studied Mechanical Engineering with and Enterpreneurship minor, which got him ready to do some fancy facilitating behind the scenes. Also, his voice is so low rumor has it he speaks whale.</p>
-          </div>
-        </section>
-      </section>
-      <!-- Three       -->
-      <!-- CTA-->
-      <section id="cta" class="wrapper style4">
-        <div class="inner">
-          <header class="major">
-            <div data-wow-duration="2s" data-wow-delay="100ms" class="image wow fadeIn"><img src="/images/slice/Talk-to-an-Oyster.png" alt=""></div>
-            <p data-wow-offset="40" data-wow-duration="2s" data-wow-delay="100ms" class="wow fadeInUp">For more information about our services, what's coming down our pipeline, or any travel needs please contact us below.</p>
-            <form action="/contact" name="contactus" id="contactus" method="post">
-              <input type="text" placeholder="FIRST NAME" required="" autocomplete="off" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="200ms" class="wow fadeInUp">
-              <input type="text" placeholder="LAST NAME" required="" autocomplete="off" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="200ms" class="wow fadeInUp">
-              <input type="email" placeholder="EMAIL" required="" autocomplete="off" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="300ms" class="wow fadeInUp">
-              <textarea rows="4" placeholder="WHAT CAN WE HELP YOU WITH? (OPTIONAL)" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="300ms" class="wow fadeInUp"></textarea>
-              <input id="submit" type="submit" name="submit" value="SUBMIT" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="400ms" class="button fit special wow fadeInUp">
-            </form>
-            <!-- ul.actions.vertical
-            //   li
-            //     a.button.fit.special(type='submit') Submit
-            -->
-          </header>
-        </div>
-      </section>
-      <!-- Footer-->
-      <footer id="footer">
-        <ul class="icons">
-          <li><a href="https://twitter.com/NathanOyster" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-          <li><a href="https://www.facebook.com/oysteryourworld/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-          <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-          <li><a href="mailto:nathan@oysteryourworld.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-        </ul>
-        <ul class="copyright">
-          <li>© 2015 Oyster World, LLC <a href="">Term of Use</a></li>
-          <li> <a href="">Privacy Policy</a></li>
-        </ul>
-      </footer>
-    </div>
-    <!-- Scripts-->
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
-	<script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.scrollex.min.js"></script>
-    <script src="/js/jquery.scrolly.min.js"></script>
-    <script src="/js/skel.min.js"></script>
-    <script src="/js/util.js"></script>
-    <script src="/js/wow.min.js"></script>
-    <script src="/js/main.js"></script>
-    <script src="/js/email.js"></script>
-    <script src="/js/ie/respond.min.js"></script>
+<html>
+	<head>
+	<title>Oyster World</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--if lte IE 8script(src='assets/js/ie/html5shiv.js')-->
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/animate.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<!--if lte IE 8link(rel='stylesheet', href='/css/ie8.css')-->
+	<!--if lte IE 9link(rel='stylesheet', href='/css/ie9.css')-->
+	</head>
 
-	<script src="/js/core.js"></script>
-  </body>
+	<body class="landing">
+		<div id="page-wrapper">
+		      <!-- Header-->
+		      <header id="header" class="alt">
+		        <h1><a href="index.html"><img src="/images/slice/Oyster-World-Anchor-Small.png" alt=""></a></h1>
+		        <nav id="nav">
+		          <ul>
+		            <li class="special"><a href="#menu" class="menuToggle"></a>
+		              <div id="menu">
+		                <ul>
+		                  <li><a href="index.html">Home</a></li>
+		                  <li><a href="#one">Our Services</a></li>
+		                  <li><a href="#two">Meet the Crew</a></li>
+		                  <li><a href="#cta">Talk to An Oyster</a></li>
+		                  <li><a href="#footer">Social</a></li>
+		                </ul>
+		              </div>
+		            </li>
+		          </ul>
+		        </nav>
+		      </header>
+		      <!-- Banner-->
+		      <section id="banner">
+		        <div class="inner">
+		          <h2>Oyster World</h2>
+		          <p>We're the curious ones. The ones who refuse to <br>							squander the beauty of chance. The ones who fall<br>							in love with adventures we haven't had. We're oysters, <br> the ones who travel.</p>
+		          <ul class="actions">
+		            <li><a href="#cta" class="button special scrolly">Join Our World</a></li>
+		          </ul>
+		        </div><a href="#one" class="more scrolly">Learn More</a>
+		      </section>
+		      <!-- One-->
+		      <section id="one" class="wrapper style3 special">
+		        <header class="major">
+		          <div data-wow-duration="2s" data-wow-delay="100ms" class="image wow fadeIn"><img src="/images/slice/OurServices_Header.png" alt=""></div>
+		        </header>
+		        <ul class="features">
+		          <li data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0ms" class="wow fadeInUp"><img src="/images/slice/OurServices_ME_Icon2.png" alt="">
+		            <h1>Meet & Eat</h1>
+		            <h3>Ethnic Cuisine</h3>
+		            <p class="meetup-section">Our meetup that's focused on sharing foreign foods with friends new and old. Fill-up with the diverse cuisine offerings and get a taste of the culture in your backyard.</p>
+		            <p class="meetup-section"><img src="/images/slice/MeetupLogo.png" alt="" class="meetup-logo"><span class="meetup-description">Currently offered<br>in Columbus, Ohio</span></p><a href="http://www.meetup.com/Meet-Eat-by-Oyster-World/" class="button special">Join the Meetup</a>
+		          </li>
+		          <li data-wow-offset="30" data-wow-duration="2s" data-wow-delay="100ms" class="wow fadeInUp"><img src="/images/slice/OurServices_OWR_Icon2.png" alt="">
+		            <h1>Oyster World</h1>
+		            <h3>Radio</h3>
+		            <p>We are not afraid to travel to uncharted waters in Oyster World Radio: a series of interviews, language barriers, social faux pas and political rants. Learn how travel betters lives and see one tourist's transformation into a traveller.</p><a href="#" class="button special grey">Coming soon</a>
+		          </li>
+		          <li data-wow-offset="30" data-wow-duration="2s" data-wow-delay="200ms" class="wow fadeInUp"><img src="/images/slice/OurServices_OWC_Icon.png" alt="">
+		            <h1>Oyster Travel</h1>
+		            <h3>Consultants</h3>
+		            <p>Not your every-day travel consultant, but rather the helm to authentic travel spots. We are dedicated to keeping you out of tourist traps and limiting the lost in translation moments of your trip with one-on-one, pre-travel guidance.</p><a href="#" class="button special grey">Coming soon</a>
+		          </li>
+		        </ul>
+		      </section>
+		      <!-- Two-->
+		      <section id="two" class="wrapper alt style2">
+		        <div class="inner"></div>
+		        <header class="major">
+		          <div data-wow-duration="2s" data-wow-delay="100ms" class="image wow fadeIn"><img src="/images/slice/AboutUs_Header_MeetTheCrew.png" alt=""></div>
+		        </header>
+		        <section class="spotlight">
+		          <div class="image"><img src="/images/slice/Omar_profile.jpg" alt=""></div>
+		          <div class="content"><img src="/images/slice/Omar_name.png" alt="" data-wow-duration="2s" data-wow-delay="100ms" class="wow pulse">
+		            <h2>Meet the CTO</h2>
+		            <p>He is our Chief Technology Officer and he has no fear of saying "hi" to strangers. He tudied Materials Science Engineering and Computer Science - basically, he is an engineer that was bit by an aggressive travel-lust bug.</p>
+		          </div>
+		        </section>
+		        <section class="spotlight">
+		          <div class="image"><img src="/images/slice/Shannon_profile.jpg" alt=""></div>
+		          <div class="content pullRight"><img src="/images/slice/Shannon_name.png" alt="" data-wow-duration="2s" data-wow-delay="100ms" class="wow pulse">
+		            <h2>Meet the CMO</h2>
+		            <p>She is our Chief Marketing Officer because she studied Visual Communication Design. She deserves a high-five for all the creative bits of your Oyster experience. She's also not sure how she feels about narcissisticks, but groupies are pretty great.'</p>
+		          </div>
+		        </section>
+		        <section class="spotlight">
+		          <div class="image"><img src="/images/slice/Nate_profile.jpg" alt=""></div>
+		          <div class="content"><img src="/images/slice/Nate_name.png" alt="" data-wow-duration="2s" data-wow-delay="100ms" class="wow pulse">
+		            <h2>Meet the CEO</h2>
+		            <p>He is our Chief Executive Officer, aka Chief Ginormous Boss. He studied Mechanical Engineering with and Enterpreneurship minor, which got him ready to do some fancy facilitating behind the scenes. Also, his voice is so low rumor has it he speaks whale.</p>
+		          </div>
+		        </section>
+		      </section>
+		      <!-- Three       -->
+		      <!-- CTA-->
+		      <section id="cta" class="wrapper style4">
+		        <div class="inner">
+		          <header class="major">
+		            <div data-wow-duration="2s" data-wow-delay="100ms" class="image wow fadeIn"><img src="/images/slice/Talk-to-an-Oyster.png" alt=""></div>
+		            <p data-wow-offset="40" data-wow-duration="2s" data-wow-delay="100ms" class="wow fadeInUp">For more information about our services, what's coming down our pipeline, or any travel needs please contact us below.</p>
+		            <form action="/contact" name="contactus" id="contactus" method="post">
+		              <input type="text" placeholder="FIRST NAME" required="" autocomplete="off" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="200ms" class="wow fadeInUp">
+		              <input type="text" placeholder="LAST NAME" required="" autocomplete="off" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="200ms" class="wow fadeInUp">
+		              <input type="email" placeholder="EMAIL" required="" autocomplete="off" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="300ms" class="wow fadeInUp">
+		              <textarea rows="4" placeholder="WHAT CAN WE HELP YOU WITH? (OPTIONAL)" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="300ms" class="wow fadeInUp"></textarea>
+		              <input id="submit" type="submit" name="submit" value="SUBMIT" data-wow-offset="40" data-wow-duration="1s" data-wow-delay="400ms" class="button fit special wow fadeInUp">
+		            </form>
+		          </header>
+		        </div>
+		      </section>
+		      <!-- Footer-->
+		      <footer id="footer">
+		        <ul class="icons">
+		          <li><a href="https://twitter.com/NathanOyster" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		          <li><a href="https://www.facebook.com/oysteryourworld/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+		          <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+		          <li><a href="mailto:nathan@oysteryourworld.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		        </ul>
+		        <ul class="copyright">
+		          <li>© 2015 Oyster World, LLC <a href="">Term of Use</a></li>
+		          <li> <a href="">Privacy Policy</a></li>
+		        </ul>
+		      </footer>
+		</div>
+	</body>
+
+	<script src="/js/vendor/jquery.min.js"></script>
+	<script src="/js/vendor/jquery.scrollex.min.js"></script>
+	<script src="/js/vendor/jquery.scrolly.min.js"></script>
+	<script src="/js/vendor/skel.min.js"></script>
+	<script src="/js/vendor/wow.min.js"></script>
+	<script src="/js/util.js"></script>
+	<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+	<script src="/js/main.js"></script>
+
 </html>
