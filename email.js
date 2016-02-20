@@ -1,5 +1,5 @@
-var sendgrid_username = 'azure_0a61c773ac40bacbb1652da124c319c3@azure.com',
-    sendgrid_password = 'OysterWorld1',
+var sendgrid_username = 'azure_e7928b90e973f940213df4cdf6b56175@azure.com',
+    sendgrid_password = 'Oyster10',
 	sendgrid = require('sendgrid')(sendgrid_username, sendgrid_password);
 
 module.exports = {
@@ -7,9 +7,9 @@ module.exports = {
 		var textTemplate = firstName + ' ' + lastName + ' (Email: ' + email + ') left a comment for Oyster World: ' + comment;
 		
 		return emailPayload = {
-			to: 'beth_panx@hotmail.com',
-			from: 'noreply@OysterWorld.com',
-			subject: 'Oyster World Is Getting Noticed!',
+			to: 'info@OysterYourWorld.com',
+			from: 'noreply@OysterYourWorld.com',
+			subject: 'Thanks for hitting us up at Oyster World!',
 			text: textTemplate
 		};
 	},
